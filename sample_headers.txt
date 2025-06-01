@@ -1,0 +1,357 @@
+Dataset.file_meta -------------------------------
+(0002,0000) File Meta Information Group Length  UL: 186
+(0002,0001) File Meta Information Version       OB: b'\x00\x01'
+(0002,0002) Media Storage SOP Class UID         UI: MR Image Storage
+(0002,0003) Media Storage SOP Instance UID      UI: 1.2.840.113619.2.495.13170512.16123563.25339.1652781020.208
+(0002,0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002,0012) Implementation Class UID            UI: 1.2.840.113619.6.495
+(0002,0013) Implementation Version Name         SH: 'RX29.1'
+-------------------------------------------------
+(0008,0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008,0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'OTHER']
+(0008,0016) SOP Class UID                       UI: MR Image Storage
+(0008,0018) SOP Instance UID                    UI: 1.2.840.113619.2.495.13170512.16123563.25339.1652781020.208
+(0008,0020) Study Date                          DA: '20220523'
+(0008,0021) Series Date                         DA: '20220523'
+(0008,0022) Acquisition Date                    DA: '20220523'
+(0008,0023) Content Date                        DA: '20220523'
+(0008,0030) Study Time                          TM: '162702'
+(0008,0031) Series Time                         TM: '173822'
+(0008,0032) Acquisition Time                    TM: '173822'
+(0008,0033) Content Time                        TM: '173822'
+(0008,0050) Accession Number                    SH: ''
+(0008,0060) Modality                            CS: 'MR'
+(0008,0070) Manufacturer                        LO: 'GE MEDICAL SYSTEMS'
+(0008,0080) Institution Name                    LO: 'The University of Hong Kong'
+(0008,0090) Referring Physician's Name          PN: ''
+(0008,1010) Station Name                        SH: 'GOCGOC'
+(0008,1030) Study Description                   LO: 'MRI RESEARCH MULTIMODAL IMAGING STUDY EXPLORING THE NEUROBIOLOGI'
+(0008,103E) Series Description                  LO: 'pe=0 & rhimsize96 Reversed dti-PE 6 directions'
+(0008,1070) Operators' Name                     PN: 'WMC'
+(0008,1090) Manufacturer's Model Name           LO: 'SIGNA Premier'
+(0008,1111)  Referenced Performed Procedure Step Sequence  1 item(s) ---- 
+   (0008,1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008,1155) Referenced SOP Instance UID         UI: 1.2.840.113619.6.495.248499691401064953952054690665275932907
+   ---------
+(0008,1140)  Referenced Image Sequence  2 item(s) ---- 
+   (0008,1150) Referenced SOP Class UID            UI: MR Image Storage
+   (0008,1155) Referenced SOP Instance UID         UI: 1.2.840.113619.2.495.13170512.16123563.25339.1652780982.869
+   ---------
+   (0008,1150) Referenced SOP Class UID            UI: MR Image Storage
+   (0008,1155) Referenced SOP Instance UID         UI: 1.2.840.113619.2.311.4698478112017078207794930708387092300
+   ---------
+(0008,2218)  Anatomic Region Sequence  1 item(s) ---- 
+   (0008,0100) Code Value                          SH: 'T-A0100'
+   (0008,0102) Coding Scheme Designator            SH: 'SRT'
+   (0008,0104) Code Meaning                        LO: 'Brain'
+   ---------
+(0009,0010) Private Creator                     LO: 'GEMS_IDEN_01'
+(0009,1002) [Suite id]                          SH: 'GOC'
+(0009,1004) [Product id]                        SH: 'SIGNA'
+(0009,1027) [Image actual date]                 SL: 1653327502
+(0009,1030) [Service id]                        SH: '0828270064'
+(0009,1031) [Mobile location number]            SH: '9999'
+(0009,10E3) [Equipment UID]                     UI: 1.2.840.113619.1.495.5.13170512.16123563
+(0009,10E9) [Actual series data time stamp]     SL: 1653327502
+(0010,0010) Patient's Name                      PN: 'LAM, SZE WAN'
+(0010,0020) Patient ID                          LO: 'K3868826'
+(0010,0030) Patient's Birth Date                DA: '19750318'
+(0010,0040) Patient's Sex                       CS: 'F'
+(0010,1010) Patient's Age                       AS: '047Y'
+(0010,1030) Patient's Weight                    DS: '45'
+(0010,21B0) Additional Patient History          LT: ''
+(0018,0015) Body Part Examined                  CS: 'BRAIN'
+(0018,0020) Scanning Sequence                   CS: ['EP', 'SE']
+(0018,0021) Sequence Variant                    CS: 'NONE'
+(0018,0022) Scan Options                        CS: ['CL_GEMS', 'EDR_GEMS', 'EPI_GEMS', 'HYPERBAND_GEMS', 'FILTERED_GEMS', 'ACC_GEMS']
+(0018,0023) MR Acquisition Type                 CS: '2D'
+(0018,0025) Angio Flag                          CS: 'N'
+(0018,0050) Slice Thickness                     DS: '2.5'
+(0018,0080) Repetition Time                     DS: '5000'
+(0018,0081) Echo Time                           DS: '56'
+(0018,0083) Number of Averages                  DS: '2'
+(0018,0084) Imaging Frequency                   DS: '127.756304'
+(0018,0085) Imaged Nucleus                      SH: '1H'
+(0018,0086) Echo Number(s)                      IS: '1'
+(0018,0087) Magnetic Field Strength             DS: '3'
+(0018,0088) Spacing Between Slices              DS: '2.5'
+(0018,0091) Echo Train Length                   IS: '1'
+(0018,0093) Percent Sampling                    DS: '100'
+(0018,0094) Percent Phase Field of View         DS: '100'
+(0018,0095) Pixel Bandwidth                     DS: '5208.33'
+(0018,1000) Device Serial Number                LO: '0000000828270064'
+(0018,1020) Software Versions                   LO: ['29', 'LX', 'RX29.1_R02_2131.a']
+(0018,1030) Protocol Name                       LO: '2105.1 MRI RESEARCH MULT'
+(0018,1080) Beat Rejection Flag                 CS: 'Y'
+(0018,1088) Heart Rate                          IS: '0'
+(0018,1090) Cardiac Number of Images            IS: '0'
+(0018,1094) Trigger Window                      IS: '0'
+(0018,1100) Reconstruction Diameter             DS: '240'
+(0018,1250) Receive Coil Name                   SH: '48HAP'
+(0018,1310) Acquisition Matrix                  US: [96, 0, 0, 96]
+(0018,1312) In-plane Phase Encoding Direction   CS: 'COL'
+(0018,1314) Flip Angle                          DS: '90'
+(0018,1315) Variable Flip Angle Flag            CS: 'N'
+(0018,1316) SAR                                 DS: '0.160956'
+(0018,5100) Patient Position                    CS: 'HFS'
+(0018,9032) Geometry of k-Space Traversal       CS: 'RECTILINEAR'
+(0018,9034) Rectilinear Phase Encode Reordering CS: 'LINEAR'
+(0018,9087) Diffusion b-value                   FD: 1000.0
+(0019,0010) Private Creator                     LO: 'GEMS_ACQU_01'
+(0019,100F) [Horiz. Frame of ref.]              DS: '312.600006'
+(0019,1011) [Series contrast]                   SS: 0
+(0019,1012) [Last pseq]                         SS: 0
+(0019,1017) [Series plane]                      SS: 16
+(0019,1018) [First scan ras]                    LO: 'I'
+(0019,1019) [First scan location]               DS: '-99.2393'
+(0019,101A) [Last scan ras]                     LO: 'S'
+(0019,101B) [Last scan loc]                     DS: '70.2895'
+(0019,101E) [Display field of view]             DS: '240.000000'
+(0019,105A) [Acquisition Duration]              FL: 75000016.0
+(0019,107D) [Second echo]                       DS: '50000'
+(0019,107E) [Number of echoes]                  SS: 1
+(0019,107F) [Table delta]                       DS: '0.000000'
+(0019,1081) [Contiguous]                        SS: 1
+(0019,1084) [Peak SAR]                          DS: '1.731765'
+(0019,1087) [Cardiac repetition time]           DS: '0.000000'
+(0019,1088) [Images per cardiac cycle]          SS: 0
+(0019,108A) [Actual receive gain analog]        SS: 8
+(0019,108B) [Actual receive gain digital]       SS: 29
+(0019,108D) [Delay after trigger]               DS: '0'
+(0019,108F) [Swappf]                            SS: 1
+(0019,1090) [Pause Interval]                    SS: 0
+(0019,1091) [Pause Time]                        DS: '0.000000'
+(0019,1092) [Slice offset on freq axis]         SL: 0
+(0019,1093) [Auto Prescan Center Frequency]     DS: '1277563040'
+(0019,1094) [Auto Prescan Transmit Gain]        SS: 91
+(0019,1095) [Auto Prescan Analog receiver gain] SS: 8
+(0019,1096) [Auto Prescan Digital receiver gain SS: 29
+(0019,1097) [Bitmap defining CVs]               SL: 2592
+(0019,109B) [Pulse Sequence Mode]               SS: 1
+(0019,109C) [Pulse Sequence Name]               LO: 'epi2'
+(0019,109D) [Pulse Sequence Date]               DT: '20210805011126'
+(0019,109E) [Internal Pulse Sequence Name]      LO: 'EPI2'
+(0019,109F) [Transmitting Coil Type]            SS: 3
+(0019,10A0) [Surface Coil Type]                 SS: 0
+(0019,10A1) [Extremity Coil flag]               SS: 0
+(0019,10A2) [Raw data run number]               SL: 15925
+(0019,10A3) [Calibrated Field strength]         UL: 0
+(0019,10A4) [SAT fat/water/bone]                SS: 0
+(0019,10A7) [User data 0]                       DS: '1.000000'
+(0019,10A8) [User data 1]                       DS: '1.000000'
+(0019,10A9) [User data 2]                       DS: '0.000000'
+(0019,10AA) [User data 3]                       DS: '0.000000'
+(0019,10AB) [User data 4]                       DS: '0.000000'
+(0019,10AC) [User data 5]                       DS: '1.000000'
+(0019,10AD) [User data 6]                       DS: '0.000000'
+(0019,10AE) [User data 7]                       DS: '0.000000'
+(0019,10AF) [User data 8]                       DS: '0.000000'
+(0019,10B0) [User data 9]                       DS: '0.000000'
+(0019,10B1) [User data 10]                      DS: '0.000000'
+(0019,10B2) [User data 11]                      DS: '0.000000'
+(0019,10B3) [User data 12]                      DS: '0.000000'
+(0019,10B4) [User data 13]                      DS: '0.000000'
+(0019,10B5) [User data 14]                      DS: '0.000000'
+(0019,10B6) [User data 15]                      DS: '0.000000'
+(0019,10B7) [User data 16]                      DS: '0.000000'
+(0019,10B8) [User data 17]                      DS: '0.000000'
+(0019,10B9) [User data 18]                      DS: '0.000000'
+(0019,10BA) [User data 19]                      DS: '0.000000'
+(0019,10BB) [User data 20]                      DS: '0.446'
+(0019,10BC) [User data 21]                      DS: '0.895'
+(0019,10BD) [User data 22]                      DS: '0'
+(0019,10BE) [Projection angle]                  DS: '0.000000'
+(0019,10C0) [Saturation planes]                 SS: 0
+(0019,10C2) [SAT location R]                    SS: 9990
+(0019,10C3) [SAT location L]                    SS: 9990
+(0019,10C4) [SAT location A]                    SS: 9990
+(0019,10C5) [SAT location P]                    SS: 9990
+(0019,10C6) [SAT location H]                    SS: 9990
+(0019,10C7) [SAT location F]                    SS: 9990
+(0019,10C8) [SAT thickness R/L]                 SS: 0
+(0019,10C9) [SAT thickness A/P]                 SS: 0
+(0019,10CA) [SAT thickness H/F]                 SS: 0
+(0019,10CB) [Phase Contrast flow axis]          SS: 0
+(0019,10CC) [Velocity encoding]                 SS: 0
+(0019,10CD) [Thickness disclaimer]              SS: 0
+(0019,10CE) [Prescan type]                      SS: 2
+(0019,10CF) [Prescan status]                    SS: 0
+(0019,10D2) [Projection Algorithm]              SS: 0
+(0019,10D3) [Projection Algorithm Name]         SH: ''
+(0019,10D5) [Fractional echo]                   SS: 2
+(0019,10D7) [Cardiac phase number]              SS: 0
+(0019,10D8) [Variable echoflag]                 SS: 0
+(0019,10D9) [Concatenated SAT {# DTI Diffusion  DS: '0.000000'
+(0019,10DF) [User data 23 {# DTI Diffusion Dir. DS: '1.000000'
+(0019,10E0) [User data 24 {# DTI Diffusion Dir. DS: '6.000000'
+(0019,10E2) [Velocity Encode Scale]             DS: '0.000000'
+(0019,10F2) [Fast phases]                       SS: 0
+(0019,10F9) [Transmit gain]                     DS: '91'
+(0020,000D) Study Instance UID                  UI: 1.2.840.113619.6.495.177093744765903152972476975941159396196
+(0020,000E) Series Instance UID                 UI: 1.2.840.113619.2.495.13170512.16123563.27938.1652773890.284
+(0020,0010) Study ID                            SH: '4723'
+(0020,0011) Series Number                       IS: '12'
+(0020,0012) Acquisition Number                  IS: '1'
+(0020,0013) Instance Number                     IS: '194'
+(0020,0032) Image Position (Patient)            DS: [-123.8357620239, -82.9225692749, 51.5878448486]
+(0020,0037) Image Orientation (Patient)         DS: [0.9978666708410, -0.0643637344755, 0.0109278044042, 0.0652745860313, 0.9806661269942, -0.1844808276885]
+(0020,0052) Frame of Reference UID              UI: 1.2.840.113619.2.495.13170512.16123563.27938.1652773890.239
+(0020,0060) Laterality                          CS: ''
+(0020,1002) Images in Acquisition               IS: '490'
+(0020,1040) Position Reference Indicator        LO: ''
+(0020,1041) Slice Location                      DS: '30.97842216'
+(0020,9056) Stack ID                            SH: '1'
+(0020,9057) In-Stack Position Number            UL: 54
+(0021,0010) Private Creator                     LO: 'GEMS_RELA_01'
+(0021,1035) [Series from which prescribed]      SS: 2
+(0021,1036) [Image from which prescribed]       SS: 87
+(0021,1037) [Screen Format]                     SS: 16
+(0021,104F) [Locations in acquisition]          SS: 70
+(0021,1050) [Graphically prescribed]            SS: 0
+(0021,1051) [Rotation from source x rot]        DS: '0.000000'
+(0021,1052) [Rotation from source y rot]        DS: '0.000000'
+(0021,1053) [Rotation from source z rot]        DS: '0.000000'
+(0021,1056) [Num 3D slabs]                      SL: 0
+(0021,1057) [Locs per 3D slab]                  SL: 0
+(0021,1058) [Overlaps]                          SL: 0
+(0021,1059) [Image Filtering 0.5/0.2T]          SL: 0
+(0021,105A) [Diffusion direction]               SL: 16
+(0021,105B) [Tagging Flip Angle]                DS: '0.000000'
+(0021,105C) [Tagging Orientation]               DS: '0.000000'
+(0021,105D) [Tag Spacing]                       DS: '0.000000'
+(0021,105E) [RTIA_timer]                        DS: '0.000000'
+(0021,105F) [Fps]                               DS: '0.000000'
+(0021,1081) [Auto window/level alpha]           DS: '0'
+(0021,1082) [Auto window/level beta]            DS: '0'
+(0021,1083) [Auto window/level window]          DS: '0'
+(0021,1084) [Auto window/level level]           DS: '0'
+(0023,0010) Private Creator                     LO: 'GEMS_STDY_01'
+(0023,1070) [Start time(secs) in first axial]   FD: 0.0
+(0023,1074) [No. of updates to header]          SL: 0
+(0023,107D) [Indicates study has complete info  SS: 0
+(0023,1080)  Private tag data  1 item(s) ---- 
+   (0040,0255) Performed Procedure Type Descriptio LO: ''
+   ---------
+(0025,0010) Private Creator                     LO: 'GEMS_SERS_01'
+(0025,1006) [Last pulse sequence used]          SS: 0
+(0025,1007) [Images in Series]                  SL: 490
+(0025,1010) [Landmark Counter]                  SL: 0
+(0025,1011) [Number of Acquisitions]            SS: 1
+(0025,1014) [Indicates no. of updates to header SL: 0
+(0025,1017) [Series Complete Flag]              SL: 0
+(0025,1018) [Number of images archived]         SL: 0
+(0025,1019) [Last image number used]            SL: 490
+(0025,101A) [Primary Receiver Suite and Host]   SH: 'GOCGOC'
+(0025,101B) [Protocol Data Block (compressed)]  OB: Array of 1168 elements
+(0027,0010) Private Creator                     LO: 'GEMS_IMAG_01'
+(0027,1006) [Image archive flag]                SL: 0
+(0027,1010) [Scout Type]                        SS: 0
+(0027,1030) [Foreign Image Revision]            SH: ''
+(0027,1031) [Imaging Mode]                      SS: 1
+(0027,1032) [Pulse Sequence]                    SS: 0
+(0027,1033) [Imaging Options]                   UL: 1140852752
+(0027,1035) [Plane Type]                        SS: 16
+(0027,1040) [RAS letter of image location]      SH: 'S'
+(0027,1041) [Image location]                    FL: 30.978422164916992
+(0027,1060) [Image dimension - X]               FL: 96.0
+(0027,1061) [Image dimension - Y]               FL: 96.0
+(0027,1062) [Number of Excitations]             FL: 2.0
+(0028,0002) Samples per Pixel                   US: 1
+(0028,0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028,0010) Rows                                US: 96
+(0028,0011) Columns                             US: 96
+(0028,0030) Pixel Spacing                       DS: [2.5, 2.5]
+(0028,0100) Bits Allocated                      US: 16
+(0028,0101) Bits Stored                         US: 16
+(0028,0102) High Bit                            US: 15
+(0028,0103) Pixel Representation                US: 1
+(0028,0106) Smallest Image Pixel Value          SS: 0
+(0028,0107) Largest Image Pixel Value           SS: 1243
+(0028,1050) Window Center                       DS: '746'
+(0028,1051) Window Width                        DS: '1492'
+(0029,0010) Private Creator                     LO: 'GEMS_IMPS_01'
+(0029,1015) [Lower range of Pixels1]            SL: 0
+(0029,1016) [Upper range of Pixels1]            SL: 0
+(0029,1017) [Lower range of Pixels2]            SL: 0
+(0029,1018) [Upper range of Pixels2]            SL: 0
+(0029,1026) [Version of the hdr struct]         SS: 2
+(0029,1034) [Advantage comp. Overflow]          SL: 16384
+(0029,1035) [Advantage comp. Underflow]         SL: 0
+(0040,0242) Performed Station Name              SH: 'GOCGOC'
+(0040,0243) Performed Location                  SH: 'GOC'
+(0040,0244) Performed Procedure Step Start Date DA: '20220523'
+(0040,0245) Performed Procedure Step Start Time TM: '162649'
+(0040,0253) Performed Procedure Step ID         SH: '6990.1653294409'
+(0040,0254) Performed Procedure Step Descriptio LO: 'MRI RESEARCH MULTIMODAL IMAGING STUDY EXPLORING THE NEUROBIOLOGI'
+(0043,0010) Private Creator                     LO: 'GEMS_PARM_01'
+(0043,1001) [Bitmap of prescan options]         SS: 5
+(0043,1002) [Gradient offset in X]              SS: 76
+(0043,1003) [Gradient offset in Y]              SS: 8
+(0043,1004) [Gradient offset in Z]              SS: -318
+(0043,1006) [Number of EPI shots]               SS: 1
+(0043,1007) [Views per segment]                 SS: 0
+(0043,1008) [Respiratory rate, bpm]             SS: 0
+(0043,1009) [Respiratory trigger point]         SS: 0
+(0043,100A) [Type of receiver used]             SS: 1
+(0043,100B) [DB/dt Peak rate of change of gradi DS: '0.000000'
+(0043,100C) [dB/dt Limits in units of percent]  DS: '100.000000'
+(0043,100D) [PSD estimated limit]               DS: '72.559998'
+(0043,100E) [PSD estimated limit in tesla per s DS: '52.150002'
+(0043,1010) [Window value]                      US: 0
+(0043,101C) [GE image integrity]                SS: 0
+(0043,101D) [Level value]                       SS: 0
+(0043,1028) [Unique image iden]                 OB: Array of 80 elements
+(0043,1029) [Histogram tables]                  OB: Array of 2068 elements
+(0043,102A) [User defined data]                 OB: Array of 7480 elements
+(0043,102C) [Effective echo spacing]            SS: 660
+(0043,102D) [Filter Mode (String slop field 1 i SH: 'p+'
+(0043,102E) [String slop field 2]               SH: ''
+(0043,102F) [Image Type (real, imaginary, phase SS: 0
+(0043,1030) [Vas collapse flag]                 SS: 16
+(0043,1032) [Vas flags]                         SS: 2
+(0043,1033) [Neg_scanspacing]                   FL: 0.0
+(0043,1034) [Offset Frequency]                  IS: '0'
+(0043,1035) [User_usage_tag]                    UL: 2
+(0043,1036) [User_fill_map_MSW]                 UL: 0
+(0043,1037) [User_fill_map_LSW]                 UL: 0
+(0043,1038) [User data 25...User data 48 {User4 FL: Array of 24 elements
+(0043,1039) [Slop_int_6... slop_int_9]          IS: [1000, 1073741832, 0, 0]
+(0043,1060) [Slop_int_10...slop_int_17]         IS: [0, 0, 0, 0, 0, 0, 0, 262208]
+(0043,1061) [Scanner Study Entity UID]          UI: 1.2.840.113619.6.495.177093744765903152972476975941159396196
+(0043,1062) [Scanner Study ID]                  SH: '4723'
+(0043,106F) [Scanner Table Entry (single gradie DS: [0, 0, 0, 0]
+(0043,107D) [Recon mode flag word]              US: 0
+(0043,1080) [Coil ID Data]                      LO: ['P1:', 'GEHC6nN3Sr3nDx0PCoAwnft9Jv1G##Ju', '9d00000401fde30b', 'P2:', 'GEHCfeNdFExGaokVEz3IvxMzBNiK##Di', 'bd0000040a6a3a0b', 'P3:0', 'P4:0', 'E:', 'GEHCjuG3mGyo4svtKudXKLG5dpvy##Ky', 'a0000003b5f8bc0b']
+(0043,1081) [GE Coil Name]                      LO: 'CxhUi5hFoitjQYZ8qXWlajQ'
+(0043,1082) [System Configuration Information]  LO: ['SRMode=150', 'GCoilType=13', 'gradientAmp=9000', 'lineFreq=50', 'RFampType=32', 'DerateGrad=Yes']
+(0043,1083) [Asset R Factors]                   DS: [0.25, 1]
+(0043,1084) [Additional Asset Data]             LO: ['10000', '11', '-1', '0', '', 'YES', 'ARC']
+(0043,1089) [Governing Body, dB/dt, and SAR def LO: ['IEC', 'IEC_FIRST_LEVEL', 'IEC_FIRST_LEVEL']
+(0043,108A) [Private In-Plane Phase Encoding Di CS: 'COL'
+(0043,1090) [SAR Definition]                    LO: ['WHOLE_BODY_6_MIN', 'LOCAL_PEAK_6_MIN', 'PARTIAL_BODY_6MIN']
+(0043,1091) [SAR value]                         DS: [0.161, 1.73176, 0.692706]
+(0043,1095) [Prescan Reuse String]              LO: 'RN/s7,Cal/s8,Coil/s4'
+(0043,1096) [Content Qualification]             CS: 'RESEARCH'
+(0043,1097) [Image Filtering Parameters]        LO: ['', '', '0.00 0.00 0.00 0.00 0.00 0.00 0.00', '0.00 0.00 0.00 0.00 0.00 0.00 0.00', '0.00 0.00 0.00 0.00 0.00 0.00 0.00', '40', '0.03', '0.03', '', '1', '0', '']
+(0043,109A) [Rx Stack Identification]           IS: '1'
+(0043,10A8) Private tag data                    DS: [2, 0, 25]
+(0043,10AA) Private tag data                    LO: ['rev=2;a=1;b=10.0;c=0.0;d=1.0;e=0.00;f=12.00', 'rev=2;g=48.0;h=10.0;i=1.0', 'rev=2;j=0;k=0.00', 'rev=2;l=1.0;m=0.00;n=0.10;o=3;p=4.0', 'rev=2;q=0.30;r=3;s=1.0;t=2;u=5;v=2;w=0;x=4']
+(0043,10B2) Private tag data                    LO: ['955.5', '312.6', '14.4749', '0', '73.3413', '87.8162']
+(0043,10B3) Private tag data                    DS: [1, 0, 0, 0, 0]
+(0043,10B6) Private tag data                    LO: ['2', '8', '19', '', '', '', '']
+(0043,10B7) Private tag data                    LO: ['1', '0', '3', '0']
+(0043,10B8) Private tag data                    DS: [1, 1, 1, 0, 0, 0.00207067]
+(0043,10BA) Private tag data                    DS: '0.7'
+(0043,10BB) Private tag data                    LO: ['2.5', '2.5', '']
+(0043,10BC) Private tag data                    IS: '0'
+(0043,10C0) Private tag data                    DS: [2, 0, 0, 2.00001, -102.11]
+(0043,10C1) Private tag data                    LO: Array of 19 elements
+(0043,10C2) Private tag data                    LO: Array of 19 elements
+(0043,10C3) Private tag data                    LO: ['{"ver":1,"grx":[{"plug":["GE48chHeadAnt2;P1"],"ras":[[-74.2188,7', '4.2188,1],[0,500,1],[-132.736,94.5599,1]],"flag":0,"group":0},{"', 'plug":["GE48chHeadPos2;P2"],"ras":[[-89.8438,82.0312,1],[-500,0,', '1],[-258.141,78.8843,1]],"flag":0,"group":1}]}']
+(0043,10C4) Private tag data                    LO: ['{"ver":1,"grx":[{"plug":["GE48chHeadAnt2;P1"],"ras":[[-74.2188,7', '4.2188,1],[0,500,1],[-132.736,94.5599,1]],"flag":1,"group":0},{"', 'plug":["GE48chHeadPos2;P2"],"ras":[[-89.8438,82.0312,1],[-500,0,', '1],[-258.141,78.8843,1]],"flag":1,"group":1}]}']
+(0043,10C5) Private tag data                    LO: ['None;', 'None;']
+(0043,10C6) Private tag data                    DS: [0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+(0043,10C7) Private tag data                    DS: [0.000000, 0.000000, 0.000000, -0.001157, -0.184801, 0.982775, 0.065275, 0.980666, 0.184481, 0.997867, -0.064364, -0.010928]
+(0043,10C8) Private tag data                    UL: 0
+(0043,10C9) Private tag data                    IS: '24'
+(7FE0,0010) Pixel Data                          OW: Array of 18432 elements

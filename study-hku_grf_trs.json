@@ -1,0 +1,105 @@
+{
+  "series_identifier_tag": "(0008,103E)",
+  "series_rules": [
+    {
+      "series_identifier_value": "3-Plane Localizer",
+      "parameters_to_check": {
+        "(0018,0081)": { 
+          "label": "Echo Time (TE)", 
+          "expected": 80, 
+          "tolerance": 1 
+        },
+        "(0018,0080)": { 
+          "label": "Repetition Time (TR)", 
+          "expected": 850, 
+          "tolerance": 50 
+        },
+        "(0018,0050)": { 
+          "label": "Slice Thickness", 
+          "expected": 15, 
+          "tolerance": 0.05 
+        },
+        "(0028,0030)": { 
+          "label": "Pixel Spacing", 
+          "expected": [0.976562, 0.976562], 
+          "tolerance": 0.01 
+        },
+        "(0008,0070)": {
+          "label": "Scanner Manufacturer",
+          "expected": "GE MEDICAL SYSTEMS"
+        },
+        "(0028,0010)": { 
+          "label": "Rows",
+          "expected": 96 
+        },
+        "(0018,1314)": { 
+          "label": "Flip Angle", 
+          "expected": 9.0 
+        },
+        "(0028,0100)": { 
+          "label": "Bits Allocated", 
+          "expected": 16 
+        }
+      }
+    },
+    {
+      "series_identifier_value": "pe=0 & rhimsize96 Reversed dti-PE 6 directions",
+      "parameters_to_check": {
+        "(0018,0081)": { 
+          "label": "Echo Time (TE)", 
+          "expected": 56, 
+          "tolerance": 0.1 
+        },
+        "(0018,0080)": { 
+          "label": "Repetition Time (TR)", 
+          "expected": 5000, 
+          "tolerance": 50 
+        },
+        "(0018,0050)": { 
+          "label": "Slice Thickness", 
+          "expected": 2.5, 
+          "tolerance": 0.05 
+        },
+        "(0028,0030)": { 
+          "label": "Pixel Spacing", 
+          "expected": [2.5, 2.5], 
+          "tolerance": 0.01 
+        },
+        "(0008,0070)": {
+          "label": "Scanner Manufacturer",
+          "expected": "GE MEDICAL SYSTEMS"
+        },
+        "(0028,0010)": { 
+          "label": "Rows",
+          "expected": 96 
+        },
+        "(0043,10b6)": { 
+          "label": "HyperBand Slice",
+          "index": 0,
+          "expected": 2
+        },
+        "(0043,1083)": {
+          "label": "ASSET R-Factor (Phase)",
+          "index": 0,
+          "expected": 0.5, 
+          "tolerance": 0.01 
+        }
+      }
+    },
+    {
+      "series_identifier_value": "Axial T2 FSE",
+      "parameters_to_check": {
+        "EchoTime": { 
+          "label": "Echo Time", 
+          "expected": 85, 
+          "tolerance": 5 
+        },
+        "(0018,0080)": { 
+          "label": "Repetition Time", 
+          "expected": 5400, 
+          "tolerance": 100 
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "check_asset",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "check_asset.py",
+            "console": "integratedTerminal",
+            "args": [
+                "sub_0050_DICOM_BIDS/A/Z01"
+            ]
+            
+        },
+        {
+            "name": "validator",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "dicom_parameter_validator.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dicom_dir",
+                "sub_0050_DICOM_BIDS/A",
+                "--config",
+                "study-hku_grf_trs.json"
+            ]
+            
+        }
+    ]
+}
